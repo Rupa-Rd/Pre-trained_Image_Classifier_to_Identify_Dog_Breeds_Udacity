@@ -1,4 +1,4 @@
-# Pre-trained_Image_Classifier_to_Identify_Dog_Breeds_Udemy
+# Pre-trained Image Classifier to Identify Dog Breeds
 ## Description:
 Your city is hosting a citywide dog show and you have volunteered to help the organizing committee with contestant registration. Every participant that registers must submit an image of their dog along with biographical information about their dog. The registration system tags the images based upon the biographical information.
 
