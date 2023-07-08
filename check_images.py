@@ -36,6 +36,7 @@ from classify_images import classify_images
 from adjust_results4_isadog import adjust_results4_isadog
 from calculates_results_stats import calculates_results_stats
 from print_results import print_results
+import torchvision.transforms as transforms
 
 # Main program function defined below
 def main():
