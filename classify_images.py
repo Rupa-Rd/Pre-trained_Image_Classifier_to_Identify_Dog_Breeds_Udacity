@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: Roopa Dharshini
 # DATE CREATED: 07-Jul-2023                   
-# REVISED DATE: 07-Jul-2023
+# REVISED DATE: 09-Jul-2023
 # PURPOSE: Create a function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
 #          labels to the pet image labels. This function inputs:
@@ -87,5 +87,5 @@ def classify_images(images_dir, results_dic, model):
         classifier_label = classifier_label.lower().strip()
 
         # Update the results_dic with the classifier label
-        results_dic[key].extend([classifier_label, int(results_dic[key][0] == classifier_label)])
+        results_dic[key].extend([classifier_label, int(results_dic[key][0] in classifier_label)])
     print(results_dic)
